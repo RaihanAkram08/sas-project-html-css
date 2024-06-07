@@ -1,0 +1,436 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-image: url("./assets/bg-body.png");
+    background-color: rgb(41, 99, 215);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/bg-header.png");
+    border-bottom: 0.1px solid rgb(120, 120, 120);
+}
+
+header img {
+    width: 45%;
+    margin: 70px auto 0px;
+}
+
+header .teks {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header .teks h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+header .teks p {
+    color: white;
+    margin-top: 0;
+    opacity: 0.8;
+}
+
+header .teks button {
+    color: white;
+    background-color: rgb(247, 181, 58);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .teks button:hover {
+    background-color: rgb(248, 193, 92);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .akses-materi {
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+main .akses-materi h1 {
+    color: white;
+    font-size: 32px;
+}
+
+main .akses-materi p {
+    color: white;
+    opacity: 0.5;
+}
+
+main .materi-produk-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .materi-produk-satu .materi-satu {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .materi-produk-satu .materi-dua {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .materi-produk-satu .materi-tiga {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .materi-produk-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .materi-produk-dua .materi-empat {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .materi-produk-dua .materi-lima {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .materi-produk-dua .materi-enam {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .gambar-materi {
+    width: 85%;
+}
+
+main .font-materi {
+    font-weight: 600;
+    color: white;
+}
+
+.section-satu {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.section-satu .akses-bonus {
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.section-satu .akses-bonus h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.section-satu .akses-bonus p {
+    color: white;
+    opacity: 0.5
+}
+
+.section-satu .bonus-produk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.section-satu .bonus-produk .bonus-satu {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.section-satu .bonus-produk .bonus-satu .div-bonus .teks p {
+    opacity: 0.5;
+}
+
+.section-satu .bonus-produk .bonus-satu button {
+    background-color: rgb(247, 181, 58);
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.section-satu .bonus-produk .bonus-satu button:hover {
+    background-color: rgb(248, 193, 92);
+}
+
+.section-satu .bonus-produk .bonus-dua {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.section-satu .bonus-produk .bonus-dua .div-bonus .teks p {
+    opacity: 0.5;
+}
+
+.section-satu .bonus-produk .bonus-dua button {
+    background-color: rgb(247, 181, 58);
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.section-satu .bonus-produk .bonus-dua button:hover {
+    background-color: rgb(248, 193, 92);
+}
+
+.problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problem .problem-teks {
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.problem .problem-teks h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.problem .problem-teks p {
+    color: white;
+    opacity: 0.5
+}
+
+.problem .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.problem .social-media .wa {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 18px 28px 10px;
+}
+
+.problem .social-media .wa img {
+    width: 40%;
+}
+
+.problem .social-media .wa h3 {
+    font-size: 20px;
+}
+
+.problem .social-media .telegram {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 18px 28px 10px;
+}
+
+.problem .social-media .telegram img {
+    width: 40%;
+}
+
+.problem .social-media .telegram h3 {
+    font-size: 20px;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1px solid rgb(120, 120, 120);
+}
+
+.admin .teks-admin {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.admin .teks-admin h3 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.admin .teks-admin p {
+    color: white;
+    opacity: 0.5;
+}
+
+.admin .social-media-admin {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 13px;
+    margin-bottom: 50px;
+}
+
+.admin .social-media-admin a {
+    text-decoration: none;
+    background-color: rgb(247, 181, 58);
+    color: white;
+    padding: 3px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.admin .social-media-admin a:hover {
+    background-color: rgb(248, 193, 92);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 65px auto;
+    opacity: 0.5;
+}
+
+@media (min-width: 960px) {
+    header img {
+        width: 10%;
+    }
+
+    main .materi-produk-satu {
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .materi-produk-dua {
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .gambar-materi {
+        width: 80%;
+    }
+
+    .section-satu .bonus-produk {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .section-satu .bonus-produk .bonus-satu {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-satu .bonus-produk .bonus-satu .div-bonus {
+        display: flex;
+    }
+
+    .section-satu .bonus-produk .bonus-dua {
+        width: 400px;
+    }
+
+    .section-satu .bonus-produk .bonus-dua .div-bonus {
+        display: flex;
+    }
+
+    .problem .social-media {
+        flex-direction: row;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .problem .social-media .wa {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-start;
+    }
+
+    .problem .social-media .wa img {
+        width: 20%;
+    }
+
+    .problem .social-media .telegram {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-start;
+    }
+
+    .problem .social-media .telegram img {
+        width: 20%;
+    }
+
+    .admin .teks-admin {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .admin .teks-admin .social-media-admin {
+        text-align: left;
+    }
+
+    .admin .teks-admin h3 {
+        padding-right: 23px;
+    }
+
+    .admin .teks-admin p {
+        width: 500px;
+        padding-left: 20px;
+        text-align: left;
+    }
+}
